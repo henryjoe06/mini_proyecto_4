@@ -35,15 +35,15 @@
     align-items: center;
 }
 .galeria{ 
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); 
-    gap: 1rem; 
-    padding: 2rem;
+    padding: 40px 30px;
 }
 .tamaño-img{
-    width: 100px; 
-    height: 250px;
+    width: 100%; 
+    height: auto; 
+    border-radius: 8px; 
+    object-fit: cover;
 }
-.div{
-    padding: auto;
+.div3{
+    display: flex; 
+    grid-template-columns: repeat(4, 4); gap: 20px;
 }
