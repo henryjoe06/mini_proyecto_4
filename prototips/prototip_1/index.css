@@ -47,3 +47,8 @@
     display: flex; 
     grid-template-columns: repeat(4, 4); gap: 20px;
 }
+.body{
+    margin: 0; 
+    font-family: 'Segoe UI', sans-serif; background-color: #f5f5f5; 
+    color: #333;
+}
