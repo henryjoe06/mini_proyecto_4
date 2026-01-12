@@ -1,0 +1,46 @@
+body{
+    background-color: gray;
+}
+.color-header{
+background-color: #000000a4; 
+padding: 20px 35px; 
+text-align: center;
+}
+.color-white{
+    color: white;
+}
+.color-footer{
+    background-color: rgba(0, 0, 0, 0.521);
+    padding: 10px 10px;
+    text-align: center;
+}
+.prototip{ 
+    background-color: #fff; 
+    border: 1px solid #ccc; 
+    padding: 20px; 
+    margin: 40px auto; 
+    max-width: 400px; 
+    border-radius: 8px; 
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1); 
+    text-align: center; 
+}
+.galeria{
+    display: grid;  
+    gap: 25px; 
+
+    margin: 40px; 
+    padding: 30px 20px;
+    grid-template-columns: repeat(3, 4fr); 
+}
+.prototip{ 
+    background-color: #fff; 
+    border-radius: 8px; 
+    overflow: hidden; 
+    box-shadow: 0 2px 6px rgba(0,0,0,0.15); 
+    justify-items: center;
+    cursor: pointer;
+}
+.tamaño-img{
+    max-width: 300px;
+    height: 300px
+}
