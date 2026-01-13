@@ -1,12 +1,70 @@
-.button{ 
-    background-color: #000; 
-    color: #fff; 
-    padding: 0.75rem 1.5rem; 
-    border: none; 
-    border-radius: 12px;
-    cursor: pointer; 
-    font-size: 1rem
+.button {
+  background-color: #000;
+  color: #fff;
+  padding: 0.75rem 1.5rem;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  font-size: 1rem;
 }
-.tamaño-texto{
-    
+.tamaño-texto {
+  max-width: 250px;
+  height: 300px;
+  padding: 2rem;
+  text-align: left;
+  font-family: "Helvetica Neue", sans-serif;
 }
+.contenedor {
+  display: flex;
+  align-items: center;
+  gap: 100px;
+  justify-content: space-between center;
+  padding: 2rem;
+  align-items: flex-start;
+}
+.img1 {
+    width: 300px;
+    background-size: 100%;
+}
+.img2 {
+
+}
+.img3 {
+  padding: 80px;
+  justify-content: center;
+}
+.numero {
+  position: absolute;
+  top: 565px;
+  left: 90px;
+  font-size: 2rem;
+  font-weight: bold;
+  color: gray;
+  padding: 4px 8px;
+}
+.img4 {
+  position: absolute;
+  top: 638px;
+  left: 550px;
+}
+.numero2 {
+  color: gray;
+  position: absolute;
+  top: 570px;
+  left: 565px;
+}
+.img5{
+    position: absolute;
+    top: 640px;
+    left: 1000px;
+}
+.numero3{
+    color: gray;
+    position: absolute;
+    top: 570px;
+    left: 1000px;
+}
+
+
+
+
