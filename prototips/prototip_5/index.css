@@ -1,0 +1,55 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #ffffff;
+  color: #1a1a1a;
+  padding: 80px 40px;
+  display: flex;
+  justify-content: center;
+}
+
+.seccion-proyectos {
+  width: 100%;
+  max-width: 1100px;
+}
+
+.titulo-principal {
+  font-size: 56px;
+  font-weight: bold;
+  margin-bottom: 60px;
+}
+
+.bloque-columnas {
+  display: flex;
+  gap: 40px;
+}
+
+.columna {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.numero {
+  font-size: 22px;
+  font-weight: bold;
+  color: #8c8c8c;
+  margin-bottom: 12px;
+}
+
+.texto {
+  font-size: 15px;
+  line-height: 1.6;
+  color: #555555;
+  margin-bottom: 25px;
+}
+
+.foto-contenedor {
+  width: 100%;
+  height: 250px;
+  background-color: #f0f0f0;
+}
+
+.foto-contenedor img {
+  width: 100%;
+  height: 100%;
+}
