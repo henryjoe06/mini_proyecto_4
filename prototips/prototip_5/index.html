@@ -1,12 +1,108 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Prototip 5</title>
-    <link rel="stylesheet" href="index.css">
-</head>
-<body>
-    
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Prototipo 5</title>
+    <style>
+      body {
+        font-family: "Century Gothic", "Segoe UI", Arial, sans-serif;
+        background-color: #ffffff;
+        color: #1a1a1a;
+        padding: 80px 40px; 
+        display: flex;
+        justify-content: center;
+      }
+
+      .seccion-proyectos {
+        width: 100%;
+        max-width: 1100px; 
+      }
+
+      .titulo-principal {
+        font-size: 56px;
+        font-weight: bold;
+        line-height: 1.15;
+        margin-bottom: 60px; 
+        letter-spacing: -1px;
+      }
+
+      .bloque-columnas {
+        display: flex;
+        gap: 40px; 
+      }
+
+      .columna {
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+      }
+
+      .numero {
+        font-size: 22px;
+        font-weight: bold;
+        color: #8c8c8c;
+        margin-bottom: 12px;
+      }
+
+      .texto {
+        font-size: 15px;
+        line-height: 1.6;
+        color: #555555;
+        margin-bottom: 25px; /* Empuja la imagen hacia abajo */
+      }
+
+      /* Caja contenedora de la imagen */
+      .foto-contenedor {
+        width: 100%;
+        height: 250px; /* Altura fija para que las tres tarjetas queden alineadas */
+        background-color: #f0f0f0; /* Fondo gris provisional */
+        overflow: hidden;
+      }
+
+      .foto-contenedor img {
+        width: 100%;
+        height: 100%;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="seccion-proyectos">
+      <h1 class="titulo-principal">Projects and<br />practice</h1>
+
+      <div class="bloque-columnas">
+        <div class="columna">
+          <div class="numero">01</div>
+          <p class="texto">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Faucibus in
+            libero risus semper habitant arcu eget. Et integer facilisi eget.
+          </p>
+          <div class="foto-contenedor">
+            <img src="imatges_prototip_5/img_prototip5_1.png" alt="Proyecto 1" />
+          </div>
+        </div>
+
+        <div class="columna">
+          <div class="numero">02</div>
+          <p class="texto">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Faucibus in
+            libero risus semper habitant arcu eget. Et integer facilisi eget.
+          </p>
+          <div class="foto-contenedor">
+            <img src="imatges_prototip_5/img_prototip5_2.png" alt="Proyecto 2" />
+          </div>
+        </div>
+
+        <div class="columna">
+          <div class="numero">03</div>
+          <p class="texto">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Faucibus in
+            libero risus semper habitant arcu eget. Et integer facilisi eget.
+          </p>
+          <div class="foto-contenedor">
+            <img src="imatges_prototip_5/img_prototip5_3.png" alt="Proyecto 3" />
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
 </html>

@@ -1,0 +1,97 @@
+body {
+  font-family: sans-serif;
+  background-color: #b9c1c2;
+  color: #2b302a;
+}
+
+.pantalla {
+  width: 100%;
+  max-width: 1200px;
+  height: 750px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.bloque-texto {
+  position: absolute;
+  top: 80px;
+  left: 200px;
+  max-width: 460px;
+  z-index: 3;
+}
+
+.titulo {
+  font-size: 76px;
+  font-weight: bold;
+  margin-bottom: 25px;
+}
+
+.descripcion {
+  font-size: 16px;
+  margin-bottom: 35px;
+  color: #3d4540;
+}
+
+.boton {
+  background-color: #323029;
+  color: #ffffff;
+  border: none;
+  padding: 16px 45px;
+  font-size: 16px;
+  border-radius: 30px;
+}
+
+.foto-izquierda {
+  position: absolute;
+  left: 40px;
+  bottom: 0;
+  width: 380px;
+  height: 410px;
+  z-index: 1;
+}
+
+.foto-derecha {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 500px;
+  height: 410px;
+  z-index: 1;
+}
+
+.barra-datos {
+  position: absolute;
+  bottom: 60px;
+  right: 40px;
+  width: 780px;
+  background-color: rgba(255, 255, 255, 0.4);
+  border-radius: 100px;
+  padding: 45px 65px;
+  display: flex;
+  justify-content: space-between;
+  gap: 50px;
+  z-index: 2;
+}
+
+.columna {
+  flex: 1;
+}
+
+.numero {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+.linea {
+  width: 35px;
+  height: 3px;
+  background-color: #2b302a;
+  margin-bottom: 15px;
+}
+
+.texto-columna {
+  font-size: 13px;
+  line-height: 1.5;
+  color: #3d4540;
+}
